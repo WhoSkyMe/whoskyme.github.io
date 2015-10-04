@@ -4,8 +4,48 @@ body{
 	background-color:#c6cedf;
 }
 
+p{
+	margin: 0;
+	padding: 0;
+
+	font-family: "微软雅黑";
+}
+
+
+/*----------------------------------------右上导航栏----------------------------------------*/
+.navigation-bar{	
+	border: 0px solid black;
+
+	position: fixed;
+	top:0;
+	left: 0px;
+	right:0px;
+	z-index: 0;
+	text-align: center;
+
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navigation-word{
+	border: 0px solid blue;
+
+	margin: 0 ;
+	padding: 10px 22px 10px 22px;
+	display: inline-block;
+	
+    font-size: 20px;
+    color: gray;
+}
+
+.navigation-word:hover{
+	color: #76a4d5;
+}
+
+#navigation-word-selected{
+	color: #76a4d5;
+}
 
 #header{
-	height: 50px;
-	background:url(images/header.jpg) ;
+	width: 100%;
 }
