@@ -1,0 +1,11 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#c6cedf;
+}
+
+
+#header{
+	height: 50px;
+	background:url(images/header.jpg) ;
+}
