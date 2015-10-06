@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#5a6a82;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+
+	font-family: "微软雅黑" "华文细黑";
+}
+
+span{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+/*----------------------------------------导航栏----------------------------------------*/
+.navigation-bar{	
+	border: 0px solid red;
+
+	position: fixed;
+	top:0;
+	left: 0px;
+	right:0px;
+	z-index: 0;
+	text-align: center;
+
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navigation-word{
+	border: 0px solid blue;
+
+	margin: 0 ;
+	padding: 12px 22px 12px 22px;
+	display: inline-block;
+	
+    font-size: 20px;
+    color: gray;
+}
+
+.navigation-word:hover{
+	color: #76a4d5;
+}
+
+#navigation-word-selected{
+	color: #76a4d5;
+}
+
+
+/*----------------------------------------任务区----------------------------------------*/
+#tips{
+	border: 0px solid red;
+	margin-top: 80px;
+    
+}
+
+#tips p{
+    margin-left: 206px;
+    text-align: left;
+    color: white;
+}
+
+.container{
+	border: 0px solid red;    
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+	text-align: left;
+
+}
+
+.photo{
+	border: 0px solid red;
+    margin-left: 200px;
+
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.photo img{
+	border-radius: 20px;
+}
+
+
+
+.word{
+	border: 0px solid black;
+    
+    padding: 30px;
+	width: 660px;
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+	text-align: left;
+    border-radius: 20px;
+    background-color: #284367;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: bold;
+
+}

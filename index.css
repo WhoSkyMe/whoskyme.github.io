@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color:#c6cedf;
+	background-color:#5a6a82;
 }
 
 p{
@@ -16,7 +16,8 @@ div{
 	padding: 0;
 }
 
-/*----------------------------------------右上导航栏----------------------------------------*/
+
+/*----------------------------------------导航栏----------------------------------------*/
 .navigation-bar{	
 	border: 0px solid red;
 
@@ -35,7 +36,7 @@ div{
 	border: 0px solid blue;
 
 	margin: 0 ;
-	padding: 10px 22px 10px 22px;
+	padding: 12px 22px 12px 22px;
 	display: inline-block;
 	
     font-size: 20px;
@@ -50,7 +51,9 @@ div{
 	color: #76a4d5;
 }
 
-#header{
+
+/*----------------------------------------图片区----------------------------------------*/
+.header{
 	border: 0px solid red;
 
 	margin: 0px;
@@ -66,19 +69,103 @@ div{
 #word{
 	border: 0px solid blue;
 
-    margin: -88px;
-	padding:10px;
+    margin: 0px;
+	padding:18px;
+
 
 	text-align: center;
 	font-size: 20px;
 	color: #749fcd;
 
+    background-image:url(images/header2.jpg) ;
+    background-size: 100%;
 }
 
-#title{
-	border: 1px solid red;
-	margin-top:200px;
 
-	font-size: 32px;
+/*----------------------------------------排行区----------------------------------------*/
+#title{
+	border: 0px solid red;
+	margin: 0;
+	padding: 0;
+	margin-top:20px;
+	
+
 	text-align: center;
+}
+
+#ranking{
+	border: 0px solid red;
+    
+    margin: 0;
+    padding: 0;
+
+
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 120px;
+}
+
+.person{
+	border: 2px black solid;
+	border-color: #001839;
+	display: inline-block;
+
+	margin:6px;
+	padding: 0;
+	background-color: #183c6e;
+
+}
+
+.icon{
+	border: 2px black solid;
+    border-top:0;
+    border-left: 0;
+    border-bottom: 0;
+    border-color: #001839;
+
+	display: inline-block;
+	margin:0;
+	padding: 0px;
+
+	background: #004349;
+}
+
+.photo{
+	margin: 0;
+	padding: 0px;
+	border: 0px white solid;
+}
+
+.name{
+	margin: 0px;
+	padding:0px 10px 4px 10px;
+	border: 0px red solid;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 20px;
+
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.descrip{
+	border: 0px solid red;
+
+    margin: 8px 10px 8px 10px;
+
+    width:150px;
+	vertical-align: top;
+    display: inline-block;	
+    text-align: left;
+}
+
+.descrip p{
+	border: 0px black solid;
+
+	color: white;
+	font-size: 16px;
+	line-height: 29px;
 }
