@@ -86,6 +86,7 @@ a:link{
 	border: 0px solid red;
     margin-left: 200px;
 
+
     display: inline-block;
     text-align: center;
     font-size: 0;
@@ -94,12 +95,15 @@ a:link{
 
 .photo img{
 	border-radius: 20px;
+	width: 260px;
 }
 
 
 
 .word{
 	border: 0px solid black;
+
+	margin-left: 6px;
     
     padding: 30px;
 	width: 660px;
