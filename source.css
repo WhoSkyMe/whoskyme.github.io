@@ -18,8 +18,14 @@ div{
 
 a:link{
 	text-decoration: none;
+	color: #76a4d5
 }
-
+a:hover{
+	color: #76a4d5;
+}
+a:visited{
+	color: #76a4d5;
+}
 
 /*----------------------------------------导航栏----------------------------------------*/
 .navigation-bar{	
